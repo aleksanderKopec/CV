@@ -1,0 +1,134 @@
+body{
+    --width: 1080px ;
+    width: var(--width);
+    height: calc(var(--width)*1.4142);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    /* margin: auto; */
+    padding: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+
+
+ul{
+    list-style-type: disc;
+    margin-left: -15px;
+}
+
+.center-content *{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container{
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    margin: auto;
+}
+
+.main-column-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.personals{
+    width: 100%;
+    background-color: rgba(67,75,79,255);
+    color: white;
+    padding: 20px;
+}
+
+.personals-info h2{
+    text-align: center;
+}
+
+.personals-info div{
+    margin-bottom: 5px;
+}
+
+.cv-image{
+    border-radius: 50%;
+    border: 7px solid rgba(13,187,214,255);
+    background-image: url("cv-image.jpg");
+    background-position: center;
+    width: 230px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.personals-info-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.icon{
+    width: 15%;
+    text-align: center;
+}
+
+.languages{
+    width: 100%;
+    padding: 10px;
+}
+
+.soft-skills{
+    width: 100%;
+    padding: 10px;
+}
+
+.main-column-right{
+    width: 60%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.school, .workplace{
+    margin-bottom: 20px;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 1000;
+}
+
+.subtitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.hobbies{
+    display: flex;
+    gap: 50px;
+}
+
+.hobby{
+    display: inline-block;
+    text-align: center;
+}
