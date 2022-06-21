@@ -2,7 +2,7 @@ body{
     --width: 1080px ;
     width: var(--width);
     height: calc(var(--width)*1.4142);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     /* margin: auto; */
     padding: none;
